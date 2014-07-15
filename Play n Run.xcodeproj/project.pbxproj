@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2E154D1829E60C007F123D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2E154C1829E60C007F123D /* CoreMotion.framework */; };
+		EB2E15541829F0FB007F123D /* Ponto.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E15531829F0FB007F123D /* Ponto.m */; };
+		EB2E155F1829F92A007F123D /* PNRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E155E1829F92A007F123D /* PNRHomeViewController.m */; };
+		EB2E15621829F93A007F123D /* PNRHomeViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E15611829F93A007F123D /* PNRHomeViewController_iPhone.m */; };
+		EB2E156B1829FA14007F123D /* PNRPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E156A1829FA14007F123D /* PNRPlaylistViewController.m */; };
+		EB2E156E1829FA35007F123D /* PNRPlaylistViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E156D1829FA35007F123D /* PNRPlaylistViewController_iPhone.m */; };
+		EB2E15721829FC2D007F123D /* PNRCorridasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E15711829FC2D007F123D /* PNRCorridasViewController.m */; };
+		EB2E15761829FC4E007F123D /* PNRCorridasViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E15751829FC4E007F123D /* PNRCorridasViewController_iPhone.m */; };
+		EB2E15C6182A01AC007F123D /* Corrida.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E15C5182A01AC007F123D /* Corrida.m */; };
+		EB310A2B182AF5760010166F /* PNRWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = EB310A2A182AF5760010166F /* PNRWeather.m */; };
+		EB310A30182B001B0010166F /* PNROpcoesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB310A2F182B001B0010166F /* PNROpcoesViewController.m */; };
+		EB83A24618285C95003545BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A24518285C95003545BC /* Foundation.framework */; };
+		EB83A24818285C95003545BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A24718285C95003545BC /* CoreGraphics.framework */; };
+		EB83A24A18285C95003545BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A24918285C95003545BC /* UIKit.framework */; };
+		EB83A24C18285C95003545BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A24B18285C95003545BC /* CoreData.framework */; };
+		EB83A25218285C95003545BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB83A25018285C95003545BC /* InfoPlist.strings */; };
+		EB83A25418285C95003545BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB83A25318285C95003545BC /* main.m */; };
+		EB83A25818285C95003545BC /* PNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB83A25718285C95003545BC /* PNRAppDelegate.m */; };
+		EB83A25B18285C95003545BC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83A25918285C95003545BC /* Main_iPhone.storyboard */; };
+		EB83A25E18285C95003545BC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83A25C18285C95003545BC /* Main_iPad.storyboard */; };
+		EB83A26118285C95003545BC /* Play_n_Run.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB83A25F18285C95003545BC /* Play_n_Run.xcdatamodeld */; };
+		EB83A26918285C95003545BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83A26818285C95003545BC /* Images.xcassets */; };
+		EB83A27018285C95003545BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A26F18285C95003545BC /* XCTest.framework */; };
+		EB83A27118285C95003545BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A24518285C95003545BC /* Foundation.framework */; };
+		EB83A27218285C95003545BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A24918285C95003545BC /* UIKit.framework */; };
+		EB83A27318285C95003545BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A24B18285C95003545BC /* CoreData.framework */; };
+		EB83A27B18285C95003545BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB83A27918285C95003545BC /* InfoPlist.strings */; };
+		EB83A27D18285C95003545BC /* Play_n_RunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB83A27C18285C95003545BC /* Play_n_RunTests.m */; };
+		EB83A28A18285D91003545BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB83A28918285D90003545BC /* MapKit.framework */; };
+		EBFB47141828F9C8001E67EE /* PNRPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFB47131828F9C8001E67EE /* PNRPlayerViewController.m */; };
+		EBFB47191828FA0F001E67EE /* PNRPlayerViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFB47181828FA0F001E67EE /* PNRPlayerViewController_iPhone.m */; };
+		EBFB472418290036001E67EE /* PNRResultadoMapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFB472318290036001E67EE /* PNRResultadoMapaViewController.m */; };
+		EBFB472718290046001E67EE /* PNRResultadoMapaViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFB472618290046001E67EE /* PNRResultadoMapaViewController_iPhone.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB83A27418285C95003545BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB83A23A18285C95003545BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB83A24118285C95003545BC;
+			remoteInfo = "Play n Run";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2E154C1829E60C007F123D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EB2E15521829F0FB007F123D /* Ponto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ponto.h; sourceTree = "<group>"; };
+		EB2E15531829F0FB007F123D /* Ponto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ponto.m; sourceTree = "<group>"; };
+		EB2E155D1829F92A007F123D /* PNRHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRHomeViewController.h; sourceTree = "<group>"; };
+		EB2E155E1829F92A007F123D /* PNRHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRHomeViewController.m; sourceTree = "<group>"; };
+		EB2E15601829F93A007F123D /* PNRHomeViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRHomeViewController_iPhone.h; sourceTree = "<group>"; };
+		EB2E15611829F93A007F123D /* PNRHomeViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRHomeViewController_iPhone.m; sourceTree = "<group>"; };
+		EB2E15691829FA14007F123D /* PNRPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRPlaylistViewController.h; sourceTree = "<group>"; };
+		EB2E156A1829FA14007F123D /* PNRPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPlaylistViewController.m; sourceTree = "<group>"; };
+		EB2E156C1829FA35007F123D /* PNRPlaylistViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRPlaylistViewController_iPhone.h; sourceTree = "<group>"; };
+		EB2E156D1829FA35007F123D /* PNRPlaylistViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPlaylistViewController_iPhone.m; sourceTree = "<group>"; };
+		EB2E15701829FC2D007F123D /* PNRCorridasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRCorridasViewController.h; sourceTree = "<group>"; };
+		EB2E15711829FC2D007F123D /* PNRCorridasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRCorridasViewController.m; sourceTree = "<group>"; };
+		EB2E15741829FC4E007F123D /* PNRCorridasViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRCorridasViewController_iPhone.h; sourceTree = "<group>"; };
+		EB2E15751829FC4E007F123D /* PNRCorridasViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRCorridasViewController_iPhone.m; sourceTree = "<group>"; };
+		EB2E15C4182A01AC007F123D /* Corrida.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Corrida.h; sourceTree = "<group>"; };
+		EB2E15C5182A01AC007F123D /* Corrida.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Corrida.m; sourceTree = "<group>"; };
+		EB310A29182AF5760010166F /* PNRWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRWeather.h; sourceTree = "<group>"; };
+		EB310A2A182AF5760010166F /* PNRWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRWeather.m; sourceTree = "<group>"; };
+		EB310A2E182B001B0010166F /* PNROpcoesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNROpcoesViewController.h; sourceTree = "<group>"; };
+		EB310A2F182B001B0010166F /* PNROpcoesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNROpcoesViewController.m; sourceTree = "<group>"; };
+		EB83A24218285C95003545BC /* Play n Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play n Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB83A24518285C95003545BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB83A24718285C95003545BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB83A24918285C95003545BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB83A24B18285C95003545BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB83A24F18285C95003545BC /* Play n Run-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Play n Run-Info.plist"; sourceTree = "<group>"; };
+		EB83A25118285C95003545BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB83A25318285C95003545BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB83A25518285C95003545BC /* Play n Run-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Play n Run-Prefix.pch"; sourceTree = "<group>"; };
+		EB83A25618285C95003545BC /* PNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNRAppDelegate.h; sourceTree = "<group>"; };
+		EB83A25718285C95003545BC /* PNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNRAppDelegate.m; sourceTree = "<group>"; };
+		EB83A25A18285C95003545BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EB83A25D18285C95003545BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EB83A26018285C95003545BC /* Play_n_Run.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Play_n_Run.xcdatamodel; sourceTree = "<group>"; };
+		EB83A26818285C95003545BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB83A26E18285C95003545BC /* Play n RunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Play n RunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB83A26F18285C95003545BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB83A27818285C95003545BC /* Play n RunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Play n RunTests-Info.plist"; sourceTree = "<group>"; };
+		EB83A27A18285C95003545BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB83A27C18285C95003545BC /* Play_n_RunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Play_n_RunTests.m; sourceTree = "<group>"; };
+		EB83A28918285D90003545BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EBFB47121828F9C8001E67EE /* PNRPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRPlayerViewController.h; sourceTree = "<group>"; };
+		EBFB47131828F9C8001E67EE /* PNRPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPlayerViewController.m; sourceTree = "<group>"; };
+		EBFB47171828FA0F001E67EE /* PNRPlayerViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRPlayerViewController_iPhone.h; sourceTree = "<group>"; };
+		EBFB47181828FA0F001E67EE /* PNRPlayerViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPlayerViewController_iPhone.m; sourceTree = "<group>"; };
+		EBFB472218290036001E67EE /* PNRResultadoMapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRResultadoMapaViewController.h; sourceTree = "<group>"; };
+		EBFB472318290036001E67EE /* PNRResultadoMapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRResultadoMapaViewController.m; sourceTree = "<group>"; };
+		EBFB472518290046001E67EE /* PNRResultadoMapaViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRResultadoMapaViewController_iPhone.h; sourceTree = "<group>"; };
+		EBFB472618290046001E67EE /* PNRResultadoMapaViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRResultadoMapaViewController_iPhone.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB83A23F18285C95003545BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2E154D1829E60C007F123D /* CoreMotion.framework in Frameworks */,
+				EB83A24818285C95003545BC /* CoreGraphics.framework in Frameworks */,
+				EB83A24C18285C95003545BC /* CoreData.framework in Frameworks */,
+				EB83A28A18285D91003545BC /* MapKit.framework in Frameworks */,
+				EB83A24A18285C95003545BC /* UIKit.framework in Frameworks */,
+				EB83A24618285C95003545BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB83A26B18285C95003545BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB83A27018285C95003545BC /* XCTest.framework in Frameworks */,
+				EB83A27318285C95003545BC /* CoreData.framework in Frameworks */,
+				EB83A27218285C95003545BC /* UIKit.framework in Frameworks */,
+				EB83A27118285C95003545BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2E154E1829F0D7007F123D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E15521829F0FB007F123D /* Ponto.h */,
+				EB2E15531829F0FB007F123D /* Ponto.m */,
+				EB2E15C4182A01AC007F123D /* Corrida.h */,
+				EB2E15C5182A01AC007F123D /* Corrida.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EB2E15581829F857007F123D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E15601829F93A007F123D /* PNRHomeViewController_iPhone.h */,
+				EB2E15611829F93A007F123D /* PNRHomeViewController_iPhone.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		EB2E155A1829F86A007F123D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E155D1829F92A007F123D /* PNRHomeViewController.h */,
+				EB2E155E1829F92A007F123D /* PNRHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		EB2E155B1829F88F007F123D /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E156C1829FA35007F123D /* PNRPlaylistViewController_iPhone.h */,
+				EB2E156D1829FA35007F123D /* PNRPlaylistViewController_iPhone.m */,
+			);
+			name = Playlist;
+			sourceTree = "<group>";
+		};
+		EB2E155C1829F8AA007F123D /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E15691829FA14007F123D /* PNRPlaylistViewController.h */,
+				EB2E156A1829FA14007F123D /* PNRPlaylistViewController.m */,
+			);
+			name = Playlist;
+			sourceTree = "<group>";
+		};
+		EB2E156F1829FC1A007F123D /* Corridas */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E15701829FC2D007F123D /* PNRCorridasViewController.h */,
+				EB2E15711829FC2D007F123D /* PNRCorridasViewController.m */,
+			);
+			name = Corridas;
+			sourceTree = "<group>";
+		};
+		EB2E15731829FC35007F123D /* Corridas */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E15741829FC4E007F123D /* PNRCorridasViewController_iPhone.h */,
+				EB2E15751829FC4E007F123D /* PNRCorridasViewController_iPhone.m */,
+			);
+			name = Corridas;
+			sourceTree = "<group>";
+		};
+		EB310A28182AF52B0010166F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EB310A29182AF5760010166F /* PNRWeather.h */,
+				EB310A2A182AF5760010166F /* PNRWeather.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		EB310A2C182AFE340010166F /* OpcoesMapa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OpcoesMapa;
+			sourceTree = "<group>";
+		};
+		EB310A2D182AFE880010166F /* OpcoesMapa */ = {
+			isa = PBXGroup;
+			children = (
+				EB310A2E182B001B0010166F /* PNROpcoesViewController.h */,
+				EB310A2F182B001B0010166F /* PNROpcoesViewController.m */,
+			);
+			name = OpcoesMapa;
+			sourceTree = "<group>";
+		};
+		EB83A23918285C95003545BC = {
+			isa = PBXGroup;
+			children = (
+				EB83A24D18285C95003545BC /* Play n Run */,
+				EB83A27618285C95003545BC /* Play n RunTests */,
+				EB83A24418285C95003545BC /* Frameworks */,
+				EB83A24318285C95003545BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB83A24318285C95003545BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB83A24218285C95003545BC /* Play n Run.app */,
+				EB83A26E18285C95003545BC /* Play n RunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB83A24418285C95003545BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E154C1829E60C007F123D /* CoreMotion.framework */,
+				EB83A28918285D90003545BC /* MapKit.framework */,
+				EB83A24518285C95003545BC /* Foundation.framework */,
+				EB83A24718285C95003545BC /* CoreGraphics.framework */,
+				EB83A24918285C95003545BC /* UIKit.framework */,
+				EB83A24B18285C95003545BC /* CoreData.framework */,
+				EB83A26F18285C95003545BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB83A24D18285C95003545BC /* Play n Run */ = {
+			isa = PBXGroup;
+			children = (
+				EB310A28182AF52B0010166F /* Helper */,
+				EB2E154E1829F0D7007F123D /* Model */,
+				EB83A28818285D61003545BC /* iPhone */,
+				EB83A28718285D5C003545BC /* iPad */,
+				EB83A28618285D55003545BC /* Universal */,
+				EB83A24E18285C95003545BC /* Supporting Files */,
+			);
+			path = "Play n Run";
+			sourceTree = "<group>";
+		};
+		EB83A24E18285C95003545BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB83A24F18285C95003545BC /* Play n Run-Info.plist */,
+				EB83A25018285C95003545BC /* InfoPlist.strings */,
+				EB83A25318285C95003545BC /* main.m */,
+				EB83A25518285C95003545BC /* Play n Run-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB83A27618285C95003545BC /* Play n RunTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB83A27C18285C95003545BC /* Play_n_RunTests.m */,
+				EB83A27718285C95003545BC /* Supporting Files */,
+			);
+			path = "Play n RunTests";
+			sourceTree = "<group>";
+		};
+		EB83A27718285C95003545BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB83A27818285C95003545BC /* Play n RunTests-Info.plist */,
+				EB83A27918285C95003545BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB83A28618285D55003545BC /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				EB310A2D182AFE880010166F /* OpcoesMapa */,
+				EB2E156F1829FC1A007F123D /* Corridas */,
+				EB2E155C1829F8AA007F123D /* Playlist */,
+				EB2E155A1829F86A007F123D /* Home */,
+				EBFB471B1828FFAD001E67EE /* Resultado */,
+				EBFB47151828F9D3001E67EE /* Player */,
+				EB83A26818285C95003545BC /* Images.xcassets */,
+				EB83A25F18285C95003545BC /* Play_n_Run.xcdatamodeld */,
+				EB83A25618285C95003545BC /* PNRAppDelegate.h */,
+				EB83A25718285C95003545BC /* PNRAppDelegate.m */,
+			);
+			name = Universal;
+			sourceTree = "<group>";
+		};
+		EB83A28718285D5C003545BC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				EB83A25C18285C95003545BC /* Main_iPad.storyboard */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		EB83A28818285D61003545BC /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				EB310A2C182AFE340010166F /* OpcoesMapa */,
+				EB2E15731829FC35007F123D /* Corridas */,
+				EB2E155B1829F88F007F123D /* Playlist */,
+				EB2E15581829F857007F123D /* Home */,
+				EBFB471A1828FFA2001E67EE /* Resultado */,
+				EBFB47161828F9EA001E67EE /* Player */,
+				EB83A25918285C95003545BC /* Main_iPhone.storyboard */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		EBFB47151828F9D3001E67EE /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB47121828F9C8001E67EE /* PNRPlayerViewController.h */,
+				EBFB47131828F9C8001E67EE /* PNRPlayerViewController.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		EBFB47161828F9EA001E67EE /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB47171828FA0F001E67EE /* PNRPlayerViewController_iPhone.h */,
+				EBFB47181828FA0F001E67EE /* PNRPlayerViewController_iPhone.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		EBFB471A1828FFA2001E67EE /* Resultado */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB472518290046001E67EE /* PNRResultadoMapaViewController_iPhone.h */,
+				EBFB472618290046001E67EE /* PNRResultadoMapaViewController_iPhone.m */,
+			);
+			name = Resultado;
+			sourceTree = "<group>";
+		};
+		EBFB471B1828FFAD001E67EE /* Resultado */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB472218290036001E67EE /* PNRResultadoMapaViewController.h */,
+				EBFB472318290036001E67EE /* PNRResultadoMapaViewController.m */,
+			);
+			name = Resultado;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB83A24118285C95003545BC /* Play n Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB83A28018285C95003545BC /* Build configuration list for PBXNativeTarget "Play n Run" */;
+			buildPhases = (
+				EB83A23E18285C95003545BC /* Sources */,
+				EB83A23F18285C95003545BC /* Frameworks */,
+				EB83A24018285C95003545BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Play n Run";
+			productName = "Play n Run";
+			productReference = EB83A24218285C95003545BC /* Play n Run.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB83A26D18285C95003545BC /* Play n RunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB83A28318285C95003545BC /* Build configuration list for PBXNativeTarget "Play n RunTests" */;
+			buildPhases = (
+				EB83A26A18285C95003545BC /* Sources */,
+				EB83A26B18285C95003545BC /* Frameworks */,
+				EB83A26C18285C95003545BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB83A27518285C95003545BC /* PBXTargetDependency */,
+			);
+			name = "Play n RunTests";
+			productName = "Play n RunTests";
+			productReference = EB83A26E18285C95003545BC /* Play n RunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB83A23A18285C95003545BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PNR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Play n' Run";
+				TargetAttributes = {
+					EB83A24118285C95003545BC = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EB83A26D18285C95003545BC = {
+						TestTargetID = EB83A24118285C95003545BC;
+					};
+				};
+			};
+			buildConfigurationList = EB83A23D18285C95003545BC /* Build configuration list for PBXProject "Play n Run" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB83A23918285C95003545BC;
+			productRefGroup = EB83A24318285C95003545BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB83A24118285C95003545BC /* Play n Run */,
+				EB83A26D18285C95003545BC /* Play n RunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB83A24018285C95003545BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB83A25E18285C95003545BC /* Main_iPad.storyboard in Resources */,
+				EB83A26918285C95003545BC /* Images.xcassets in Resources */,
+				EB83A25B18285C95003545BC /* Main_iPhone.storyboard in Resources */,
+				EB83A25218285C95003545BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB83A26C18285C95003545BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB83A27B18285C95003545BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB83A23E18285C95003545BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2E155F1829F92A007F123D /* PNRHomeViewController.m in Sources */,
+				EBFB47141828F9C8001E67EE /* PNRPlayerViewController.m in Sources */,
+				EB2E15721829FC2D007F123D /* PNRCorridasViewController.m in Sources */,
+				EBFB472718290046001E67EE /* PNRResultadoMapaViewController_iPhone.m in Sources */,
+				EBFB47191828FA0F001E67EE /* PNRPlayerViewController_iPhone.m in Sources */,
+				EB83A25418285C95003545BC /* main.m in Sources */,
+				EB2E15621829F93A007F123D /* PNRHomeViewController_iPhone.m in Sources */,
+				EB310A2B182AF5760010166F /* PNRWeather.m in Sources */,
+				EB2E15C6182A01AC007F123D /* Corrida.m in Sources */,
+				EB83A25818285C95003545BC /* PNRAppDelegate.m in Sources */,
+				EB2E15541829F0FB007F123D /* Ponto.m in Sources */,
+				EB2E15761829FC4E007F123D /* PNRCorridasViewController_iPhone.m in Sources */,
+				EB2E156E1829FA35007F123D /* PNRPlaylistViewController_iPhone.m in Sources */,
+				EBFB472418290036001E67EE /* PNRResultadoMapaViewController.m in Sources */,
+				EB83A26118285C95003545BC /* Play_n_Run.xcdatamodeld in Sources */,
+				EB2E156B1829FA14007F123D /* PNRPlaylistViewController.m in Sources */,
+				EB310A30182B001B0010166F /* PNROpcoesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB83A26A18285C95003545BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB83A27D18285C95003545BC /* Play_n_RunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB83A27518285C95003545BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB83A24118285C95003545BC /* Play n Run */;
+			targetProxy = EB83A27418285C95003545BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB83A25018285C95003545BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB83A25118285C95003545BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB83A25918285C95003545BC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB83A25A18285C95003545BC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EB83A25C18285C95003545BC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB83A25D18285C95003545BC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EB83A27918285C95003545BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB83A27A18285C95003545BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB83A27E18285C95003545BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB83A27F18285C95003545BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB83A28118285C95003545BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Play n Run/Play n Run-Prefix.pch";
+				INFOPLIST_FILE = "Play n Run/Play n Run-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB83A28218285C95003545BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Play n Run/Play n Run-Prefix.pch";
+				INFOPLIST_FILE = "Play n Run/Play n Run-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB83A28418285C95003545BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Play n Run.app/Play n Run";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Play n Run/Play n Run-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Play n RunTests/Play n RunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB83A28518285C95003545BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Play n Run.app/Play n Run";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Play n Run/Play n Run-Prefix.pch";
+				INFOPLIST_FILE = "Play n RunTests/Play n RunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB83A23D18285C95003545BC /* Build configuration list for PBXProject "Play n Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB83A27E18285C95003545BC /* Debug */,
+				EB83A27F18285C95003545BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB83A28018285C95003545BC /* Build configuration list for PBXNativeTarget "Play n Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB83A28118285C95003545BC /* Debug */,
+				EB83A28218285C95003545BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB83A28318285C95003545BC /* Build configuration list for PBXNativeTarget "Play n RunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB83A28418285C95003545BC /* Debug */,
+				EB83A28518285C95003545BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB83A25F18285C95003545BC /* Play_n_Run.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB83A26018285C95003545BC /* Play_n_Run.xcdatamodel */,
+			);
+			currentVersion = EB83A26018285C95003545BC /* Play_n_Run.xcdatamodel */;
+			path = Play_n_Run.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB83A23A18285C95003545BC /* Project object */;
+}

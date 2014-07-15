@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B8E71FD3-8662-4F5D-BB2D-AAA135A050D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Play n Run</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>33873365-2517-4B42-8797-4BA6F0768A0D</key>
+		<string>https://bitbucket.org/oldwsy/play-n-run.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Play n Run.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>33873365-2517-4B42-8797-4BA6F0768A0D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/oldwsy/play-n-run.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>33873365-2517-4B42-8797-4BA6F0768A0D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>33873365-2517-4B42-8797-4BA6F0768A0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>play-n-run</string>
+		</dict>
+	</array>
+</dict>
+</plist>

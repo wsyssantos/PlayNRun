@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F37" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Corrida" representedClassName="Corrida">
+        <attribute name="dataCorrida" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="pontos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ponto" inverseName="corrida" inverseEntity="Ponto" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Ponto" representedClassName="Ponto" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="corrida" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Corrida" inverseName="pontos" inverseEntity="Corrida" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Corrida" positionX="-119" positionY="273" width="128" height="73"/>
+        <element name="Ponto" positionX="79" positionY="270" width="128" height="88"/>
+    </elements>
+</model>
